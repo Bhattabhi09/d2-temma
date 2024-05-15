@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-container">
+		<div class="login-box">
+			<h2>Login</h2>
+			<form id="login-form">
+				<div class="input-group">
+					<input type="text" name="username" required>
+					<label>Username</label>
+				</div>
+				<div class="input-group">
+					<input type="password" name="password" required>
+					<label>Password</label>
+				</div>
+				<div class="forgot-password">
+					<a href="forget.html">Forgot Password?</a>
+				</div>
+				<button type="submit" class="green-button">Login</button>
+				<p>Don't have an account? <a href="register.html" id="register-link">Register now</a></p>
+			</form>
+		</div>
+	</div>
+	<script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	background-image: url('drug.jpg');
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+.register-container {
+	width: 400px;
+	margin: 40px auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-image: url('images.jpg');
+}
+
+.register-box {
+	padding: 20px;
+    color: #af9e4c;
+
+}
+
+.register-box h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.input-group input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.input-group label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.green-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.green-button:hover {
+	background-color: #3e8e41;
+}
+
+#register-message {
+	margin-top: 20px;
+	color: green;
+}
